@@ -9,10 +9,10 @@ var pkey = "";
 
 var connInfo = {
 	"conexion":{
-	    "Mainnet": 'https://mainnet.infura.io/v3/66219843c1074abdacb74ccc2d1047b9',
-	    "Ropsten": 'https://ropsten.infura.io/v3/66219843c1074abdacb74ccc2d1047b9',
-	    "Rinkeby": 'https://mainnet.infura.io/v3/66219843c1074abdacb74ccc2d1047b9',
-	    "local": 'http://localhost:8545'
+	    "Mainnet": '',
+	    "Ropsten": '',
+	    "Rinkeby": '',
+	    "local": ''
 	}
 };
 var provider = connInfo["conexion"].Ropsten;
