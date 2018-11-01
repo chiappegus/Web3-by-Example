@@ -4,10 +4,9 @@ var solc = require('solc');
 var fs = require('fs');
 
 // Connection
-var account= "0x2401101eCED2508eEAF0A563F1e2b5B945Ee2060";
-var pkey = "2d953cf811f1adefd422f27845820a28f5d0ffe517d4ac9f56aa385646c79356";
-//account=  "0x618179114d77CE70899797b88BB2294c15ad5364";
-//pkey=  "9216e258d39955a2eb8d19ff67b260827852891454cbb9e0c012620c6ed803f9";
+var account= "";
+var pkey = "";
+
 var connInfo = {
 	"conexion":{
 	    "Mainnet": 'https://mainnet.infura.io/v3/66219843c1074abdacb74ccc2d1047b9',
